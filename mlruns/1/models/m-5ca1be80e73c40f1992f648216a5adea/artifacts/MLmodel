@@ -1,0 +1,22 @@
+artifact_path: /home/eberte-sampaio/PycharmProjects/Analise-UCI-Heart-Disease-Data/mlruns/1/models/m-5ca1be80e73c40f1992f648216a5adea/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-5ca1be80e73c40f1992f648216a5adea
+model_size_bytes: 14257
+model_uuid: m-5ca1be80e73c40f1992f648216a5adea
+prompts: null
+utc_time_created: '2026-09-22 12:39:43.509197'
